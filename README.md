@@ -24,3 +24,13 @@ Flags:
   -l, --listenaddr string      Endpoint to serve queries (default "127.0.0.1:13180")
   -v, --validatoraddr string   Validator to inform about (default "0x0")
 ```
+
+## Request for span info
+Request
+```
+curl http://127.0.0.1:13180
+```
+Response
+```
+[24774666]
+```
